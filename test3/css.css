@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background-color: aliceblue;
 }
 #container {
-    width: 100%;min-height: 100%; margin: auto;
+    width: 100%;
+    min-height: 100%; 
+    margin: auto;
 }
 #header {
-    width: 100%;
     height: 120px;
     text-align: center;
     background-color: midnightblue;
@@ -21,15 +21,21 @@ body {
 #header .logo{
     vertical-align: middle;
 }
+#main {
+    display:table;
+    height: 100%;
+}
 #left {
     display:inline-block;
     vertical-align: top;
-    width:30%;
+    width:25%;
+    height: 100%;
     background-color: aliceblue;
 }
 #left ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
 }
 #left ul>li:not(:last-child){
     border-bottom:1px solid steelblue;
@@ -43,10 +49,12 @@ body {
 }
 #left ul>li a:hover{
     background-color: #69c0ff;
+    padding: 12px;
+    color: white;
 }
 #right {
     display:inline-block;
-    width: 69%;
+    width: 75%;
 }
 #right table{
     font-size: 25px;
@@ -57,6 +65,8 @@ body {
 .banner{
     display: inline-block;
     width: 100%;
+    text-align: center; 
+    padding-bottom: 20px;
 
 }
 #footer {
