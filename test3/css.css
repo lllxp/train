@@ -24,6 +24,7 @@ body {
 #main {
     display:table;
     height: 100%;
+    background-color:aliceblue ;
 }
 #left {
     display:inline-block;
@@ -55,6 +56,7 @@ body {
 #right {
     display:inline-block;
     width: 75%;
+    background-color: white;
 }
 #right table{
     font-size: 25px;
