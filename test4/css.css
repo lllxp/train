@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-width: 380px;
+  }
+html {
+    overflow: auto;
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+}
+header {
+    background-color: rgb(216, 204, 224);
+}
+.header-title {
+    display:flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    font-size: 45px;
+    height: 120px;
+    font-weight: bold;
+    color: rgb(112, 17, 153);
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 1;
+}
+.clearfix {
+     clear: both;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+
+}
+.nav ul>li {
+    display: flex;
+    flex-direction: row;
+}
+.nav ul>li a {
+    display: inline-block;
+    padding: 8px;
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav ul>li a:hover{
+    background-color: rgb(168, 118, 184);
+    color: white;
+}
+section{
+    background-color: rgb(245,236, 250);
+}
+hr{
+    width: 30%;
+    text-align: center;
+    border: solid rgba(180, 89, 180, 0.76);
+}
+.section-title {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(121, 15, 121);
+
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.gallery img{
+    width: 300px;
+    height: 450px;
+}
+.gallery img:hover{  
+    transform: scale(1.5); 
+} 
+.gallery li>a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+}
+.container-column {
+    flex-direction: column;
+}
+footer {
+    background-color: rgb(216, 204, 224);
+    height: 20%;
+}
+.left {
+    display:flex;
+    flex: 2;
+    padding: 32px;
+    justify-content: left;
+}
+.left p{
+    text-indent: 2em;
+    font-size: 25px;
+    font-family: serif;
+    line-height: 1.5em;
+    text-align:justify;
+}
+.right {
+    display:flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 15%;
+}
+.right img{
+    width: 180px;
+    height: 180px;
+}
+.copyright {
+    text-align: center;
+    font-size: 20px;
+}
