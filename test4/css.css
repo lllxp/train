@@ -319,8 +319,6 @@ footer {
         margin: 0 auto;
     }
     .right {
-        margin: 30px auto;
-        width: 100%;
-        padding-right: 0;
+        margin: auto;
     }
 }
