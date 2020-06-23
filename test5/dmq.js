@@ -36,6 +36,7 @@ function createScreenbullet(text) {
         "display": 'block',
     });
     $(".container").append(Dom);
+    $("#bullet-text").val("");
     return Dom;
 }
 //为弹幕添加定时任务
