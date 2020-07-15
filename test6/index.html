@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <script src="./libs/scrollReveal/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="./libs/glide/glide.core.min.css">
+    <link rel="stylesheet" href="./libs/glide/glide.theme.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>蛋糕の小屋</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="logo">蛋糕の小屋</div>
+          <nav>
+            <a href="./index.html">&nbsp;&nbsp;首页&nbsp;</a>
+            <a href="#showcases">产品中心</a>
+            <a href="#team-intro">团队介绍</a>
+            <a href="./news.html">较新动态</a>
+            <a href="./about.html">联系我们</a>
+            <i class="fas fa-search"></i>
+          </nav>
+          <div class="burger">
+            <div class="burger-line1"></div>
+            <div class="burger-line2"></div>
+            <div class="burger-line3"></div>
+          </div>
+        </header>
+        <div id="home" class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <div class="glide__slides">
+              <div class="glide__slide">
+                <div class="slide-caption">
+                    <span class="text1">WELCOME TO</span>
+                    <p><span class="text1">SWEET DELIGHTS FACTORY</span></p> 
+                    <p><span class="text2">欢迎来到甜蜜的蛋糕小屋</span></p>
+                  <button class="explore-btn">探索更多</button>
+                </div>
+                <div class="backdrop"></div>
+                <img src="./images/banner1.jpg" alt="1" />
+              </div>
+              <div class="glide__slide">
+                <div class="slide-caption left">
+                    <span class="text1">MADE WITH LOVE</span>
+                    <p><span class="text1">HANDMADE & HANDCRAFTED</span></p> 
+                    <p><span class="text2">用心制作</span></p>
+                  <button class="explore-btn">探索更多</button>
+                </div>
+                <div class="backdrop"></div>
+                <img src="./images/banner2.jpg" alt="2"></img>
+              </div>
+              <div class="glide__slide">
+                <div class="slide-caption left">
+                    <span class="text1">SAVOR CAKE </span>
+                    <p><span class="text1">AND ENJOY LIFE</span></p> 
+                    <p><span class="text2">品味蛋糕 享受人生</span></p>
+                  <button class="explore-btn">探索更多</button>
+                </div>
+                <div class="backdrop"></div>
+                <img src="./images/banner3.jpg" alt="3"></img>
+              </div>
+            </div>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              ◁
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              ▷
+            </button>
+          </div>
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+          </div>
+        </div>
+        <div class="content-wrapper">
+          <section id="service" class="service">
+            <h2 class="title1">定制流程</h2>
+            <div class="services">
+              <div class="service-item">
+                <i class="fas fa-comments"></i>
+                <h2 class="service-title">联系我们</h2>
+                <p class="service-content">
+                  请联系我们，让我们知悉您的定制需求
+                </p>
+              </div>
+              <div class="service-item">
+                <i class="fas fa-pen"></i>
+                <h2 class="service-title">专属设计</h2>
+                <p class="service-content">
+                  专业设计团队免费为您按需设计专属蛋糕
+                </p>
+              </div>
+              <div class="service-item">
+                <i class="fas fa-clock"></i>
+                <h2 class="service-title">开始制作</h2>
+                <p class="service-content">
+                  款式设计确认后，请您支付50%生产定金，开始进入生产流程
+                </p>
+              </div>
+              <div class="service-item">
+                <i class="fas fa-car"></i>
+                <h2 class="service-title">准备发货</h2>
+                <p class="service-content">
+                  您的专属定制产品制作周期将在3周内完成。发货前您需要支付余款
+                </p>
+              </div>
+              <div class="service-item">
+                <i class="fas fa-check"></i>
+                <h2 class="service-title">售后服务</h2>
+                <p class="service-content">
+                  当您收到产品后，有任何问题，请及时联系客服，我们将竭诚为您服务
+                </p>
+              </div>
+              <div class="service-item">
+                <i class="fas fa-comment"></i>
+                <h2 class="service-title">产品评价</h2>
+                <p class="service-content">
+                  享用完满意的话请给我们个好评！
+                </p>
+              </div>
+            </div>
+          </section>
+          <section id="showcases" class="showcases section-bg">
+            <h2 class="title1">产品中心</h2>
+            <div class="filter-btns">
+              <button class="filter-btn active" data-filter="*">全部蛋糕</button>
+              <button class="filter-btn" data-filter=".mousse">慕斯蛋糕</button>
+              <button class="filter-btn" data-filter=".sponge">海绵蛋糕</button>
+              <button class="filter-btn" data-filter=".angel">天使蛋糕</button>
+              <button class="filter-btn" data-filter=".cup">纸杯蛋糕</button>
+            </div>
+            <div class="cases">
+              <div class="case-item mousse">
+                <img src="./images/mousse1.jpg" alt="">
+              </div>
+              <div class="case-item sponge">
+                <img src="./images/sponge1.jpg" alt="">
+              </div>
+              <div class="case-item angel">
+                <img src="./images/angel1.jpg" alt="">
+              </div>
+              <div class="case-item cup">
+                <img src="./images/cup1.jpg" alt="">
+              </div>
+              <div class="case-item mousse">
+                <img src="./images/mousse2.jpg" alt="">
+              </div>
+              <div class="case-item sponge">
+                <img src="./images/sponge2.jpg" alt="">
+              </div>
+              <div class="case-item angel">
+                <img src="./images/angel2.jpg" alt="">
+              </div>
+              <div class="case-item cup">
+                <img src="./images/cup2.jpg" alt="">
+              </div>
+              <div class="case-item mousse">
+                <img src="./images/mousse3.jpg" alt="">
+              </div>
+              <div class="case-item sponge">
+                <img src="./images/sponge3.jpg" alt="">
+              </div>
+              <div class="case-item angel">
+                <img src="./images/angel3.jpg" alt="">
+              </div>
+              <div class="case-item cup">
+                <img src="./images/cup3.jpg" alt="">
+              </div>
+              <div class="case-item mousse">
+                <img src="./images/mousse4.jpg" alt="">
+              </div>
+              <div class="case-item sponge">
+                <img src="./images/sponge4.jpg" alt="">
+              </div>
+              <div class="case-item angel">
+                <img src="./images/angel4.jpg" alt="">
+              </div>
+              <div class="case-item cup">
+                <img src="./images/cup4.jpg" alt="">
+              </div>
+            </div>
+          </section>
+          
+          <section class="data-section">
+            <div class="data-piece">
+              <i class="fas fa-user"></i>
+              <div class="num">188</div>
+              <div class="data-desc">名员工</div>
+            </div>
+            <div class="data-piece">
+              <i class="fas fa-award"></i>
+              <div class="num">288</div>
+              <div class="data-desc">个奖项</div>
+            </div>
+            <div class="data-piece">
+              <i class="fas fa-laugh-wink"></i>
+              <div class="num">8888</div>
+              <div class="data-desc">次点赞</div>
+            </div>
+            <div class="data-piece">
+              <i class="fas fa-birthday-cake "></i>
+              <div class="num">188</div>
+              <div class="data-desc">种蛋糕</div>
+            </div>
+          </section>
+          <section id="team-intro" class="team-intro section-bg">
+            <h2 class="title1">团队介绍</h2>
+            <div class="team-members">
+              <div class="team-member">
+                <div class="profile-image">
+                  <img src="./images/tutu.jpg" alt="" />
+                </div>
+                <h4 class="name">兔兔</h4>
+                <p class="position">店长</p>
+                <ul class="social-links">
+                  <li>
+                    <a href=""><i class="fab fa-weixin"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-weibo"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-github"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="team-member">
+                <div class="profile-image">
+                  <img
+                    src="./images/team.jpg"
+                    alt=""
+                  />
+                </div>
+                <h4 class="name">仓小鼠</h4>
+                <p class="position">面点师</p>
+                <ul class="social-links">
+                  <li>
+                    <a href=""><i class="fab fa-weixin"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-weibo"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-github"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="team-member">
+                <div class="profile-image">
+                  <img
+                    src="./images/xiong.jpg"
+                    alt=""
+                  />
+                </div>
+                <h4 class="name">熊小熊</h4>
+                <p class="position">烘焙学徒</p>
+                <ul class="social-links">
+                  <li>
+                    <a href=""><i class="fab fa-weixin"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-weibo"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-github"></i></a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <div class="team-member">
+                <div class="profile-image">
+                  <img src="./images/miao.jpg" alt="" />
+                </div>
+                <h4 class="name">猫小咪</h4>
+                <p class="position">服务员</p>
+                <ul class="social-links">
+                  <li>
+                    <a href=""><i class="fab fa-weixin"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-weibo"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-github"></i></a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </section>
+          
+        </div>
+        <footer>
+          <div class="footer-menus">
+            <div class="contact-us">
+              <p class="menu-title">联系我们</p>
+              <p>地址：中国福建省福州市闽侯县闽江学院</p>
+              <p>电话：18750747302</p>
+              <p>传真：18750747302</p>
+              <p>电子邮箱：1261543653@qq.com</p>
+            </div>
+            <div class="service-menu footer-menu">
+              <p class="menu-title">关于我们</p>
+              <ul class="menu-items">
+                <li><a href="#">公司介绍</a></li>
+                <li><a href="#">企业文化</a></li>
+                <li><a href="#">资质和荣誉</a></li>
+                <li><a href="#">最新动态</a></li>
+              </ul>
+            </div>
+            <div class="service-menu footer-menu">
+              <p class="menu-title">产品与服务</p>
+              <ul class="menu-items">
+                <li><a href="#">最新产品</a></li>
+                <li><a href="#">优惠产品</a></li>
+                <li><a href="#">售后服务</a></li>
+                <li><a href="#">产品评价</a></li>
+              </ul>
+            </div>
+            <div class="service-menu footer-menu">
+              <p class="menu-title">公司动态</p>
+              <ul class="menu-items">
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">最近新闻</a></li>
+              </ul>
+            </div>
+            <div class="service-menu footer-menu">
+              <p class="menu-title">帮助与支持</p>
+              <ul class="menu-items">
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">联系客服</a></li>
+                <li><a href="#">文档资源</a></li>
+              </ul>
+            </div>
+            <p class="icp-info">闽ICP备18027236号</p>
+            <p class="rights">
+              &copy; 蛋糕小屋 版权所有
+            </p>
+            <div class="scrollToTop">
+              <a href="#home"><i class="fas fa-chevron-up"></i></a>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <script src="./libs/isotope/isotope.pkgd.min.js"></script>
+      <script src="./libs/anime/anime.min.js"></script>
+      <script src="./libs/glide/glide.min.js"></script>
+      <script src="./libs/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+      <script src="./index.js"></script>
+</body>
+</html>
